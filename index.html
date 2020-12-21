@@ -34,27 +34,64 @@
             <div class="col">
                 <!-- details -->
 
-                <div class="row" id="details-today">
+                <div class="row border border-dark rounded" id="details-today">
                     <!-- todays detail -->
-                    <div class="col">
-                        <h2 class="city-name mb-1 mt-2 bolder" id="current-city"> </h2>
-                        <p></p>
-                        <p>Temperatur: </p>
-                        <p>Humidity: </p>
-                        <p>Wind Speed: </p>
-                        <p>UV Index: </p>
+                    <div class="col-sm-1" id="current-weather">
+                        <h2 class="city-name my-3 bolder" id="current-city"> Here</h2>
+                        <p>Temperatur: <span class="current" id="temperature"></span></p>
+                        <p>Humidity: <span class="current" id="humidity"></span></p>
+                        <p>Wind Speed: <span class="current" id="wind-speed"></span></p>
+                        <p>UV Index: <span class="current bg-danger rounded py-2 px-2 text-white" id="uv-index"></span></p>
                     </div>
                 </div>
                 <div class="row" id="forecast-cards">
                     <!-- forecast cards -->
+                    <div class="col-sm-12">
+                        <h3>5-Day Forecast:</h3>
+                        <div class="row text-light">
+                            <!-- 1 day forecast  -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" >
+                                <p id="fDate0"></p>
+                                <p id="fImg0"></p>
+                                <p>Temp:<span id="fTemp0"></span></p>
+                                <p>Humidity:<span id="fHumidity0"></span></p>
+                            </div>
+                             <!-- 2 day forecast  -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" >
+                                <p id="fDate1"></p>
+                                <p id="fImg1"></p>
+                                <p>Temp:<span id="fTemp1"></span></p>
+                                <p>Humidity:<span id="fHumidity1"></span></p>
+                            </div>
+                             <!-- 3 day forecast  -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
+                                <p id="fDate2"></p>
+                                <p id="fImg2"></p>
+                                <p>Temp:<span id="fTemp2"></span></p>
+                                <p>Humidity:<span id="fHumidity2"></span></p>
+                            </div>
+                             <!-- 4 day forecast  -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
+                                <p id="fDate3"></p>
+                                <p id="fImg3"></p>
+                                <p>Temp:<span id="fTemp3"></span></p>
+                                <p>Humidity:<span id="fHumidity3"></span></p>
+                            </div>
+                             <!-- 5 day forecast  -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded" >
+                                <p id="fDate4"></p>
+                                <p id="fImg4"></p>
+                                <p>Temp:<span id="fTemp4"></span></p>
+                                <p>Humidity:<span id="fHumidity4"></span></p>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Footer -->
+ <!-- Footer -->
     <footer class="mt-5 p-3 text-center bg-light">
         Weather Dashboard &copy 2020
         <link
@@ -67,6 +104,13 @@
             NFlam</a
         >
     </footer>
+
+
+
+    </div>
+
+
+   
 
 
      <!-- iQuery JS -->
