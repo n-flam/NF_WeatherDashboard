@@ -1,5 +1,5 @@
 //Declare a variable to store the searched city
-const city="";
+var city="";
 // variable declaration
 var searchCity = $("#search-city");
 var searchButton = $("#search-button");
