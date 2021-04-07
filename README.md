@@ -48,7 +48,7 @@ The local storage is used here to store the previous search city and display the
 If the user wants to see the past search city weather condition again, just click the list group item cities under the clear history button.
 
 Check out live site [WeatherDashboard](https://n-flam.github.io/NF_WeatherDashboard/)
-Check another live site [Host by Github](https://github.com/n-flam/NF_WeatherDashboardx)
+Check another live site [Host by Github](https://github.com/n-flam/NF_WeatherDashboard/)
 
 #### Screenshots:
 1. Start
