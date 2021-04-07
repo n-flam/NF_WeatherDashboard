@@ -23,11 +23,15 @@ Check out live site [WeatherDashboard](https://n-flam.github.io/NF_WeatherDashbo
 Check another live site [Host by Github](https://github.com/n-flam/NF_WeatherDashboardx)
 
 ### Screenshots:
-1. Run file index.html
+1. Start
 
 ![Capture](https://dontforget/)
 
 2. Enter any city
+
+![Capture](https://dontforget/)
+
+3. History
 
 ![Capt1ure](https://dontforget)
 
