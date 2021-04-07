@@ -19,6 +19,7 @@ function find(c){
     }
     return 1;
 }
+
 //Set up the API key
 var APIKey="956dda6b020b9fbad71791c3c8fdfe53";
 // Display the curent and future weather to the user after grabing the city form the input text box.
@@ -29,6 +30,7 @@ function displayWeather(event){
         currentWeather(city);
     }
 }
+
 // Here we create the AJAX call
 function currentWeather(city){
     // Here we build the URL so we can get a data from server side.
@@ -80,9 +82,9 @@ function currentWeather(city){
                 }
             }
         }
-
     });
 }
+
     // This function returns the UVIindex response.
 function UVIndex(ln,lt){
     //lets build the url for uvindex.
@@ -117,7 +119,6 @@ function forecast(cityid){
             $("#fTemp"+i).html(tempF+"&#8457");
             $("#fHumidity"+i).html(humidity+"%");
         }
-        
     });
 }
 
@@ -136,7 +137,6 @@ function invokePastSearch(event){
         city=liEl.textContent.trim();
         currentWeather(city);
     }
-
 }
 
 // render function
@@ -153,6 +153,7 @@ function loadlastCity(){
     }
 
 }
+
 //Clear the search history from the page
 function clearHistory(event){
     event.preventDefault();
@@ -161,6 +162,7 @@ function clearHistory(event){
     document.location.reload();
 
 }
+
 //Click Handlers
 $("#search-button").on("click",displayWeather);
 $(document).on("click",invokePastSearch);
