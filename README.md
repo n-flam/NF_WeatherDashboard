@@ -25,13 +25,13 @@ Check another live site [Host by Github](https://github.com/n-flam/NF_WeatherDas
 ### Screenshots:
 1. Start
 
-![Capture](https://dontforget/)
+![Capture](https://github.com/n-flam/NF_WeatherDashboard/blob/main/mockup/mockup-1.png)
 
 2. Enter any city
 
-![Capture](https://dontforget/)
+![Capture](https://github.com/n-flam/NF_WeatherDashboard/blob/main/mockup/mockup-2.png)
 
 3. History
 
-![Capt1ure](https://dontforget)
+![Capt1ure](https://github.com/n-flam/NF_WeatherDashboard/blob/main/mockup/mockup-3.png)
 
